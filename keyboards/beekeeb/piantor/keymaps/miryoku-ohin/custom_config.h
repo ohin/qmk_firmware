@@ -23,4 +23,11 @@ KC_LSFT, LGUI_T(KC_A),      LALT_T(KC_R),      LCTL_T(KC_S),      LSFT_T(KC_T), 
 KC_LCTL, LT(U_BUTTON,KC_Z), ALGR_T(KC_X),      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           ALGR_T(KC_DOT),    LT(U_BUTTON,KC_SLSH), KC_RCTL, \
                                                LT(U_MEDIA,KC_ESC),LT(U_NAV,KC_SPC),  LT(U_MOUSE,KC_TAB),LT(U_SYM,KC_ENT),  LT(U_NUM,KC_BSPC), LT(U_FUN,KC_DEL)
 
+
+#define MIRYOKU_LAYER_NAV \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              KC_INS,            KC_PGUP,           KC_UP,             KC_PGDN,           KC_PGUP,          \
+KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           U_NA,              KC_HOME,           KC_LEFT,           KC_DOWN,           KC_RGHT,           KC_END,           \
+U_NA,              KC_ALGR,           TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    U_NA,              U_UND,             U_PST,             U_CPY,             U_CUT,             U_RDO,            \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_ENT,            KC_BSPC,           KC_DEL,            U_NP,              U_NP
+
 #endif
